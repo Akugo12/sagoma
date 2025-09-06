@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us | CBO Kenya</title>
+  <style>
+    body, h1, h2, p, nav, section {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #005f73;
+      margin-bottom: 10px;
+    }
+    nav {
+      margin-bottom: 40px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0a9396;
+      margin: 0 12px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #94d2bd;
+    }
+
+    main section {
+      background: white;
+      padding: 25px 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+      margin-bottom: 40px;
+    }
+
+    /* Titles with distinct colors and styles */
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 18px;
+      font-weight: 700;
+    }
+    h2.vision {
+      color: #3d5a80;
+      border-left: 6px solid #3d5a80;
+      padding-left: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      margin-bottom: 25px;
+    }
+    h2.mission {
+      color: #ee6c4d;
+      border-left: 6px solid #ee6c4d;
+      padding-left: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      margin-bottom: 25px;
+    }
+    h2.values {
+      color: #98c1d9;
+      border-left: 6px solid #98c1d9;
+      padding-left: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      margin-bottom: 25px;
+    }
+    h2.activities {
+      color: #005f73;
+      border-left: 6px solid #005f73;
+      padding-left: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      margin-bottom: 25px;
+    }
+    h2.location {
+      color: #00796b;
+      border-left: 6px solid #00796b;
+      padding-left: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      margin-bottom: 20px;
+    }
+
+    /* Styled paragraphs for Mission and Vision */
+    .vision-statement, .mission-statement, .location-statement {
+      background-color: #e0f0fa;
+      border-radius: 10px;
+      padding: 20px 25px;
+      font-size: 1.25rem;
+      font-style: italic;
+      color: #244e6b;
+      box-shadow: 2px 2px 8px rgba(36, 78, 107, 0.1);
+      line-height: 1.5;
+      margin-bottom: 35px;
+      border-left: 8px solid #3d5a80;
+    }
+    .mission-statement {
+      background-color: #fdeae7;
+      color: #b64225;
+      border-left-color: #ee6c4d;
+      font-style: normal;
+    }
+    .location-statement {
+      background-color: #e0f7fa;
+      color: #004d40;
+      border-left-color: #00796b;
+      font-style: normal;
+      white-space: pre-line; /* preserve line breaks */
+      font-weight: 600;
+    }
+    .location-statement a {
+      color: #004d40;
+      text-decoration: underline;
+    }
+    .location-statement a:hover {
+      color: #00796b;
+    }
+
+    /* Section content styles */
+    .values-list, .activities-list {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 30px;
+    }
+
+    /* Custom bullet points for Core Values */
+    .values-list li {
+      background: #d1e7dd;
+      color: #0f5132;
+      padding: 10px 15px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      border-left: 6px solid #0f5132;
+      box-shadow: 1px 2px 6px rgba(15, 81, 50, 0.1);
+    }
+
+    /* Custom bullet points for Activities */
+    .activities-list li {
+      background: #caf0f8;
+      color: #0077b6;
+      padding: 12px 18px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1.15rem;
+      box-shadow: 2px 2px 5px rgba(0, 119, 182, 0.2);
+      position: relative;
+      padding-left: 40px;
+    }
+    .activities-list li::before {
+      content: "✅";
+      position: absolute;
+      left: 12px;
+      top: 12px;
+      font-size: 20px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 50px;
+      padding-top: 15px;
+      border-top: 1px solid #ddd;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+      header h1 {
+        font-size: 2.2rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+      .values-list li,
+      .activities-list li {
+        font-size: 1rem;
+      }
+      .vision-statement, .mission-statement, .location-statement {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>About Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+      <a href="donate.html">Donate</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2 class="vision">Our Vision</h2>
+      <p class="vision-statement">
+        To be a leading grassroots organization empowering youths and the community as a whole to achieve sustainable development.
+      </p>
+
+      <h2 class="mission">Our Mission</h2>
+      <p class="mission-statement">
+        To mobilize and empower communities through capacity building, advocacy, and sustainable initiatives aimed at improving livelihoods, health, education, and environmental stewardship.
+      </p>
+
+      <h2 class="values">Core Values</h2>
+      <ul class="values-list">
+        <li>Integrity</li>
+        <li>Inclusivity</li>
+        <li>Accountability</li>
+        <li>Sustainability</li>
+        <li>Community Participation</li>
+      </ul>
+
+      <h2 class="activities">Our Activities</h2>
+      <ul class="activities-list">
+        <li>Boy Child Empowerment</li>
+        <li>Agri-business Development</li>
+        <li>Climate Change Initiatives</li>
+        <li>Civic Education</li>
+        <li>Gender Equality & Girl Child Empowerment</li>
+        <li>Health Initiatives</li>
+      </ul>
+
+      <h2 class="location">Location & Contact</h2>
+      <p class="location-statement" aria-label="Contact Information">
+        Kamadaga Center<br />
+        Along Oruba Estate, Suna-West<br />
+        P.O Box 171-40400<br />
+        Tel: 0704952434 or 0796834440<br />
+        Email: <a href="mailto:gomavocationalcentre.com">gomavocationalcentre.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SAGOMA CBO </p>
+  </footer>
+
+</body>
+</html>
